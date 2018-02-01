@@ -1,0 +1,19 @@
+body {
+    background-color: lightgreen;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+.flex-item {
+    width: 150px;
+    height: 150px;
+    background-color: orange;
+    border: 1px;
+    border-radius: 10px;
+}
